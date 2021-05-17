@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PB&J Made your way</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main_container">
+      <div id="form_container">
+        <form id="user_form">
+          <label for="wheat_white">Wheat or white bread?</label>
+          <input
+            type="text"
+            name="wheat_white"
+            id="wheat_white"
+            placeholder="Wheat or white bread?"
+            required
+          />
+          <label for="Bread_style">Bread Style</label>
+          <input
+            type="text"
+            name="Bread Toasted or not toasted"
+            id="Bread_style"
+            placeholder="Toasted or not Toasted?"
+            required
+          />
+          <label for="jelly_flavor">What kind of Jelly flavor?</label>
+          <input
+            type="text"
+            name="jelly_flavor"
+            id="jelly_flavor"
+            placeholder="What kind of Jelly Flavor?"
+            required
+          />
+          <label for="PBJ_photo"
+            >Give me a image of a PBJ for a template!</label
+          >
+          <input
+            type="url"
+            name="PBJ_photo"
+            id="PBJ_photo"
+            placeholder="Peanut butter and Jelly Photo"
+          />
+          <label for="description">Describe how much you love PB&J</label>
+          <input
+            type="text"
+            name="description"
+            id="description"
+            placeholder="Tell us how you feel!?"
+          />
+          <label for="submit_button">Submit PB&J Order</label>
+          <input type="submit" value="Submit Order" />
+        </form>
+        <div id="results_display">
+          <p>Here is your order!</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
